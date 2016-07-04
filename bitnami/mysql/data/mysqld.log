@@ -121,3 +121,5 @@ Version: '5.7.13'  socket: '/opt/bitnami/mysql/tmp/mysql.sock'  port: 3306  MySQ
 2016-07-04T04:05:26.939249Z 0 [Note] Event Scheduler: Loaded 0 events
 2016-07-04T04:05:26.939381Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin: ready for connections.
 Version: '5.7.13'  socket: '/opt/bitnami/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-07-04T04:30:33.343482Z 8 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2016-07-04T04:32:57.916318Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 14267ms. The settings might not be optimal. (flushed=6 and evicted=0, during the time.)
