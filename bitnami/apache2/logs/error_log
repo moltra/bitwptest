@@ -1,0 +1,5 @@
+[Mon Jul 04 04:05:55.288049 2016] [ssl:warn] [pid 3003:tid 139873919522624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 04 04:05:55.348432 2016] [ssl:warn] [pid 3004:tid 139873919522624] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 04 04:05:55.348534 2016] [lbmethod_heartbeat:notice] [pid 3004:tid 139873919522624] AH02282: No slotmem from mod_heartmonitor
+[Mon Jul 04 04:05:55.378052 2016] [mpm_event:notice] [pid 3004:tid 139873919522624] AH00489: Apache/2.4.20 (Unix) OpenSSL/1.0.2h configured -- resuming normal operations
+[Mon Jul 04 04:05:55.378094 2016] [core:notice] [pid 3004:tid 139873919522624] AH00094: Command line: '/opt/bitnami/apache2/bin/httpd.bin -f /opt/bitnami/apache2/conf/httpd.conf'

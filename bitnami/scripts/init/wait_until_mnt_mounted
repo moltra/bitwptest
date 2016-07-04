@@ -1,0 +1,16 @@
+#!/bin/sh
+# 
+# Waits for /mnt mount point
+# Copyright 2016 Bitnami.com All Rights Reserved
+#
+
+. /opt/bitnami/scripts/init/functions
+
+for RETRY in 5 10 15 30 60 60 60 60 ; do
+  if awk </proc/mounts '{ print $2 }' | grep '^/mnt$' >/dev/null 2>/dev/null ; then
+    exit 0
+  else
+    sleep $RETRY
+  fi
+done
+  

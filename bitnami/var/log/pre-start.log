@@ -1,0 +1,19 @@
+resize2fs 1.42.9 (4-Feb-2014)
+The filesystem is already 7864064 blocks long.  Nothing to do!
+
+medium
+
+#########################################################################
+#                                                                       #
+#        Setting Bitnami application password to 'ArR62wkS'         #
+#                                                                       #
+#########################################################################
+
+[Mon Jul  4 04:05:03 UTC 2016] Regenerating keys for wordpress
+[Mon Jul  4 04:05:07 UTC 2016] Regenerating keys for wordpress finished
+[Mon Jul  4 04:05:07 UTC 2016] Finished regenerating keys
+[Mon Jul  4 04:05:07 UTC 2016] Setting up password for mysql service
+[Mon Jul  4 04:05:31 UTC 2016] Setting up password for mysql service finished
+[Mon Jul  4 04:05:31 UTC 2016] Setting up password for wordpress application
+[Mon Jul  4 04:05:37 UTC 2016] Setting up password for wordpress application finished
+[Mon Jul  4 04:05:37 UTC 2016] Finished setting password
